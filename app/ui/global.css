@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
+:root {
+  width: 100%;
+}
+
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
